@@ -30,9 +30,6 @@ header div a{
     color: black;
 }
 
-/* header div a:hover{
-    color: #006737;
-} */
 
 header .menu-items:hover{
     color: #006737;
@@ -407,7 +404,144 @@ footer>div>a{
 
 
 @media only screen and (max-width:480px){
-    body{
+    header{
+        margin: 0 !important;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header>.main-header{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+       width: 100%;
+       margin: auto;
+        font-size: 1rem;
+    }
+    .dropdown{
+        left: -180% !important;
+    }
+    
+    section>div{
+        width: 100%;
+    }
+
+    section{
+        flex-wrap: wrap !important;
+    }
+
+    .section1{
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .section1 div h1{
+        text-align: center;
+    }
+
+    .section1 div img{
+        width: 80%;
+    }
+
+
+
+    .section2{
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .section2 div h1{
+        text-align: center;
+    }
+
+    .section2 div img{
+        width: 80%;
+    }
+
+    .section3{
+        padding: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section3 h1{
+        font-size: larger;
+    }
+
+    .section3 #para2{
+        width: 100% !important;
+        
+    }
+
+
+    .section4{
+        padding: 20px;
+    }
+
+    .section4 div h1{
+        font-size: x-large;
+        text-align: center;
+    }
+    .section4 .courses{
+        width: 90% !important;
+        
+    }
+
+    .section4 .courses div img{
+        width: 100% !important;
+        height: 50vw;
+    }
+
+
+
+    .section5{
         zoom: 40%;
+    }
+
+    .section5 .event-images{
+        display: flex;
+        justify-content: center;
+    }
+
+    #image4{
+        margin-top: 2px;
+    }
+
+
+
+    .section6 div{
+        width: 300px !important;
+    }
+
+    .section6 div form{
+        width: 280px
+    }
+
+    .section6 div form input, textarea, button{
+        width: 260px;
+    }
+
+    .section6 div form textarea{
+        width: 260px;
+    }
+
+    .section6 div form button{
+        width: 260px;
+    }
+    
+
+
+    .section7 .last-div{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .section7 div h5{
+        text-align: center;
+    }
+
+    .section7 div ul li{
+        text-align: center;
     }
 }
