@@ -465,7 +465,10 @@ footer>div>a{
     }
 
     .section3 h1{
-        font-size: larger;
+        /* font-size: larger; */
+        text-align: center;
+        width: 80%;
+        
     }
 
     .section3 #para2{
@@ -479,7 +482,7 @@ footer>div>a{
     }
 
     .section4 div h1{
-        font-size: x-large;
+        
         text-align: center;
     }
     .section4 .courses{
@@ -498,6 +501,11 @@ footer>div>a{
         zoom: 40%;
     }
 
+    .section5 div h1{
+        font-size: 100px;
+        line-height: 1.2;
+        text-align: center;
+    }
     .section5 .event-images{
         display: flex;
         justify-content: center;
