@@ -30,9 +30,10 @@ header div a{
     color: black;
 }
 
-header div a:hover{
+/* header div a:hover{
     color: #006737;
-}
+} */
+
 header .menu-items:hover{
     color: #006737;
     cursor: pointer;
@@ -40,15 +41,42 @@ header .menu-items:hover{
 
 /* Menu in header */
 
+.menu-items{
+    position: relative;
+    padding: 8px;
+}
+
 .dropdown{
     display: none;
     position: absolute;
+    width: 300px;
+    background-color: rgb(230, 228, 228);
+    box-shadow: 5px 0 20px grey;
+    top: 40px;
+    left: 0%;
 }
 
-.menu-items:hover .dopdown{
+.dropdown a{
+    
+    font-size: 16px;
+}
+
+.menu-items:hover .dropdown{
     display: block;
-    width: 200px;
-    position: relative;
+}
+
+.menu-items .dropdown>div{
+    padding: 10px;
+    
+}
+
+.menu-items:hover .dropdown>div:hover{ 
+    background-color: #006737;
+    color: white;
+}
+
+.menu-items:hover .dropdown>div:hover a{
+    color: white;
 }
 
 
@@ -381,10 +409,5 @@ footer>div>a{
 @media only screen and (max-width:480px){
     body{
         zoom: 40%;
-    }
-
-    .event-images>div,.img4,.img3{
-        width: 100px;
-       height: 100px;
     }
 }
