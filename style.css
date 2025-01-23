@@ -16,17 +16,39 @@ header{
     font-size: 22px;
     align-items: center;
     width: 300px;
-    color: #006737;
 }
 
-header>div{
-
-}
 
 header>div>img{
     width: 250px;
     border-right: 1px solid lightgrey;
     padding-right: 10px;
+}
+
+header div a{
+    text-decoration: none;
+    color: black;
+}
+
+header div a:hover{
+    color: #006737;
+}
+header .menu-items:hover{
+    color: #006737;
+    cursor: pointer;
+}
+
+/* Menu in header */
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+
+.menu-items:hover .dopdown{
+    display: block;
+    width: 200px;
+    position: relative;
 }
 
 
@@ -322,7 +344,7 @@ header>div>img{
 .section7>div>ul>li{
     list-style-type: none;
     color: #006737;
-    font-size: 14px;
+    /* font-size: 14px; */
     padding: 1px;
 }
 
@@ -341,14 +363,13 @@ Footer */
 
 footer{
     display: flex;
-    background-color: rgba(181, 212, 202, 0.323);
+    background-color: rgba(196, 213, 208, 0.323);
     justify-content: space-around;
     padding: 10px;
 }
 
 footer>div.jawan-p{
     color: grey;
-    font-size: 14px;
 }
 
 footer>div>a{
@@ -356,3 +377,14 @@ footer>div>a{
     color: grey;
 }
 
+
+@media only screen and (max-width:480px){
+    body{
+        zoom: 40%;
+    }
+
+    .event-images>div,.img4,.img3{
+        width: 100px;
+       height: 100px;
+    }
+}
