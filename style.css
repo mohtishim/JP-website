@@ -406,10 +406,15 @@ footer>div>a{
 @media only screen and (max-width:480px){
     header{
         margin: 0 !important;
-        padding-top: 20px;
+        padding-top: 40px;
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    header>div>img{
+        border: none;
+    }
+
     header>.main-header{
         padding: 0;
         display: flex;
