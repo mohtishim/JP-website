@@ -30,6 +30,10 @@ header div a{
     color: black;
 }
 
+.menu-items:hover .fa-angle-down{
+    rotate: 180deg;
+    transition: 0.6s;
+}
 
 header .menu-items:hover{
     color: #006737;
